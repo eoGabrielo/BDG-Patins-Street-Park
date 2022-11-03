@@ -17,7 +17,7 @@ body{
 .botaoInicio{
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 100px;
     cursor: pointer;
 }
 
@@ -234,5 +234,6 @@ h1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 15px;
     
 }
