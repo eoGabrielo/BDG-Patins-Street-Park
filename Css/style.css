@@ -179,7 +179,7 @@ h1{
 }
 
 .instaWhats img{
-    width: 200px;
+    width: 100px;
 }
 
 .imgContato{
@@ -193,7 +193,7 @@ h1{
    text-decoration: none;
    margin-top: 2rem;
    background-color: #E3DFC4;
-   font-size: 1.2rem;
+   font-size: 1rem;
    padding: 10px;
    border-radius: 1rem;
    color: #202124;
