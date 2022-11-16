@@ -30,12 +30,12 @@ body{
     border-radius: 1rem;
     color: #202124;
     font-weight: bold;
+;
  }
  
  .botaoInicio a:hover{
      color: #E3DFC4;
      background-color: #17171ac0;
-     transition: 1s;
  }
 
 .divNavBarPai{
@@ -57,11 +57,11 @@ body{
     margin-left: 1.2rem;
     list-style: none;
     font-size: 1.2rem;
+    transition: 0.6s;
 }
 
 .divNavBarPai nav ul li:hover{
     transform: scale(1.1);
-    transition: 0.6s;
    
 }
 
@@ -75,13 +75,6 @@ body{
 }
 
 @media (max-width: 470px) {
-    
-    .logo{
-        display: none;
-    }
-
-    .divNavBarPai{
-    }
 
     .divNavBarPai nav ul li{
         margin: 0 15px;
@@ -217,12 +210,12 @@ h1{
    border-radius: 1rem;
    color: #202124;
    font-weight: bold;
+   transition: 1s;
 }
 
 .imgContato a:hover{
     color: #E3DFC4;
     background-color: #17171ac0;
-    transition: 1s;
 }
 
 /* SOBRE */
@@ -263,11 +256,11 @@ h1{
     width: 100px;
     border-radius: 1rem;
     border: 1px solid #E3DFC4;
+    transition: 1s;
 }
 
 .infoRoda div img:hover{
     cursor: pointer;
-    transition: 1s;
     transform: scale(1.2);
     border-radius: 0;
 }
@@ -285,6 +278,10 @@ h1{
     margin: 5px;
 }
 
+.infoRoda a{
+    transition: 0.5s;
+}
+
 .infoRoda a:hover{
     background-color: #E3DFC4;
     color: #202124;
@@ -292,7 +289,6 @@ h1{
     border-radius: 1rem;
     font-weight: bold;
     text-decoration: none;
-    transition: 0.5s;
 
     
 }
